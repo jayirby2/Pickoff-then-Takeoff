@@ -2,6 +2,8 @@
 
 Try the app [here](https://pickoffthentakeoff.shinyapps.io/pickoff-then-takeoff/)
 
+Read the paper [here](https://github.com/jayirby2/Pickoff-then-Takeoff/blob/main/Project%20Paper.pdf)
+
 ## Overview
 As part of new Major League Baseball (MLB) rule changes, pitchers are limited to two disengagements (pickoff attempt or step-offs) per plate appearance before a third unsuccessful disengagement allows the runner to advance. This rule has heavily impacted baserunning philosophy and defensive strategies. This paper explores runner behavior after pickoff moves. Specifically, I built a tool that predicts pitch-by-pitch steal attempts, given that a pitcher has already thrown over at least once during the at-bat. The image below displays the tool’s interactive Shiny App interface. The model is built using an XGBoost classifier trained and tested on pre-rule change MiLB player tracking data, with feature engineering designed to capture key elements of runner dynamics. The analysis highlights patterns and situations that indicate when a runner is likely to attempt a steal, providing decision-making insights for defenses. 
 
